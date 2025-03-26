@@ -11,3 +11,5 @@ only use positive pairs to train a representation<br>
 2.[SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf)<br>
 ![image](https://github.com/user-attachments/assets/dd2c96d9-9bcc-4771-91bb-e61e569822be)<br>
 
+3.[Slides for Meta-Learning](https://cs182sp21.github.io/static/slides/lec-21.pdf）<br>
+UC Berkeley<br>
