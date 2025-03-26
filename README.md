@@ -8,4 +8,6 @@ only use positive pairs to train a representation<br>
 ![image](https://github.com/user-attachments/assets/1bcc7ca4-a3c6-4512-bff6-358ebbb95a96)<br>
 [zhihu](https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf)<br>
 
+2.[SimCLR](https://proceedings.mlr.press/v119/chen20j/chen20j.pdf)<br>
+![image](https://github.com/user-attachments/assets/dd2c96d9-9bcc-4771-91bb-e61e569822be)<br>
 
