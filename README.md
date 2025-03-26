@@ -3,4 +3,9 @@
 ![image](https://github.com/user-attachments/assets/069767fb-244a-46c2-8387-b6ad3b0ad572)<br>
 
 ## Notes🖊
+1.[Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf)<br>
+only use positive pairs to train a representation<br>
+![image](https://github.com/user-attachments/assets/1bcc7ca4-a3c6-4512-bff6-358ebbb95a96)<br>
+[zhihu](https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf)<br>
+
 
