@@ -13,3 +13,12 @@ only use positive pairs to train a representation<br>
 
 3.[Slides for Meta-Learning](https://cs182sp21.github.io/static/slides/lec-21.pdf）<br>
 UC Berkeley<br>
+
+4.[ViVa: Video-Trained Value Functions for Guiding Online RL from Diverse Data](https://arxiv.org/pdf/2503.18210)<br>
+Author: Sergey Levine<br>
+![image](https://github.com/user-attachments/assets/9fa91e18-f6b5-4c3a-9a82-babcb1bbdaaf)<br>
+
+5.[Curating Demonstrations using Online Experience](https://arxiv.org/pdf/2503.03707?)<br>
+Author: Chelsea Finn<br>
+![image](https://github.com/user-attachments/assets/560df2d3-50c2-4bfc-ba34-93c090b72e22)<br>
+
