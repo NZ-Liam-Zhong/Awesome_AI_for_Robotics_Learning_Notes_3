@@ -22,3 +22,7 @@ Author: Sergey Levine<br>
 Author: Chelsea Finn<br>
 ![image](https://github.com/user-attachments/assets/560df2d3-50c2-4bfc-ba34-93c090b72e22)<br>
 
+6.[AUTOEVAL: AUTONOMOUS EVALUATION OF GENERALIST ROBOT MANIPULATION POLICIES IN THE REAL WORLD](https://auto-eval.github.io/)<br>
+Good way for evaluations<br>
+![image](https://github.com/user-attachments/assets/a070b33d-749a-4f35-8138-09a13b5f547f)<br>
+[twitter](https://x.com/svlevine/status/1906912333433298980)<br>
