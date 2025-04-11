@@ -26,3 +26,6 @@ Author: Chelsea Finn<br>
 Good way for evaluations<br>
 ![image](https://github.com/user-attachments/assets/a070b33d-749a-4f35-8138-09a13b5f547f)<br>
 [twitter](https://x.com/svlevine/status/1906912333433298980)<br>
+
+7.[Introduction to LLM](https://web.stanford.edu/~jurafsky/slp3/slides/LLM24aug.pdf)<br>
+Stanford Slides<br>
