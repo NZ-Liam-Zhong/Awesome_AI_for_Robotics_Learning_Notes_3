@@ -32,3 +32,13 @@ Stanford Slides<br>
 
 8.CQL<br>
 ![image](https://github.com/user-attachments/assets/aec96229-bd39-4a76-86af-dce898555dfe)<br>
+
+Offline-to-Online RL<br>
+
+9.[Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://proceedings.mlr.press/v164/lee22d/lee22d.pdf)<br>
+![image](https://github.com/user-attachments/assets/c9db282b-398c-4c4b-b933-0da6f7d564a6)<br>
+
+10.[Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](https://proceedings.neurips.cc/paper_files/paper/2023/file/c44a04289beaf0a7d968a94066a1d696-Paper-Conference.pdf)<br>
+![image](https://github.com/user-attachments/assets/77ae3581-a061-4bdf-8b1e-10de9f8568ea)<br>
+![image](https://github.com/user-attachments/assets/f369678f-af93-4805-905a-30aa6e1ba3b8)<br>
+
