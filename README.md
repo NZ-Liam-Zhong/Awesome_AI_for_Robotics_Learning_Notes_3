@@ -29,3 +29,6 @@ Good way for evaluations<br>
 
 7.[Introduction to LLM](https://web.stanford.edu/~jurafsky/slp3/slides/LLM24aug.pdf)<br>
 Stanford Slides<br>
+
+8.CQL<br>
+![image](https://github.com/user-attachments/assets/aec96229-bd39-4a76-86af-dce898555dfe)<br>
