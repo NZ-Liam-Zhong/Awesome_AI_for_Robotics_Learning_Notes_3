@@ -44,7 +44,7 @@ Offline-to-Online RL<br>
 
 11.Don't want to open OpenGL?<br>
 
-'''
+```
 # generate_locomaze.py 开头，务必放在所有其他 import 之前
 
 # 1) stub 掉 MjRenderContext，避免调用 mjr_makeContext 加载 OpenGL
@@ -75,4 +75,4 @@ class DummyViewer:
 import gymnasium.envs.mujoco.mujoco_rendering as rendering
 rendering.OffScreenViewer = DummyViewer
 rendering.RenderContextOffscreen = DummyViewer
-'''
+```
