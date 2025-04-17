@@ -42,3 +42,36 @@ Offline-to-Online RL<br>
 ![image](https://github.com/user-attachments/assets/77ae3581-a061-4bdf-8b1e-10de9f8568ea)<br>
 ![image](https://github.com/user-attachments/assets/f369678f-af93-4805-905a-30aa6e1ba3b8)<br>
 
+11.Don't want to open OpenGL?<br>
+
+# generate_locomaze.py 开头，务必放在所有其他 import 之前
+
+# 1) stub 掉 MjRenderContext，避免调用 mjr_makeContext 加载 OpenGL
+import mujoco
+mujoco.MjrContext = lambda model, fontscale: None
+
+# 2) 准备一个最小化的 “摄像机” 接口
+class DummyCam:
+    def __init__(self):
+        # 与 mujoco_rendering.OffScreenViewer._init_camera 中用到的属性保持一致 :contentReference[oaicite:0]{index=0}
+        self.type = None
+        self.fixedcamid = -1
+        self.lookat = [0.0, 0.0, 0.0]   # 必须支持索引赋值，否则 MazeEnv.__init__ 会报错
+        self.distance = 0.0
+        self.azimuth = 0.0
+        self.elevation = 0.0
+
+# 3) 定义一个 DummyViewer，用来替换 OffScreenViewer 和 RenderContextOffscreen
+class DummyViewer:
+    def __init__(self, *args, **kwargs):
+        # 创建一个“假”摄像机
+        self.cam = DummyCam()
+    def render(self, *args, **kwargs):
+        # 如果有代码调用 render()，直接 no-op
+        return None
+
+# 4) Monkey‑patch Gymnasium 的 MuJoCo 渲染模块
+import gymnasium.envs.mujoco.mujoco_rendering as rendering
+rendering.OffScreenViewer = DummyViewer
+rendering.RenderContextOffscreen = DummyViewer
+
