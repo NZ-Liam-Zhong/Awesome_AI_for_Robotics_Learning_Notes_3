@@ -76,3 +76,6 @@ import gymnasium.envs.mujoco.mujoco_rendering as rendering
 rendering.OffScreenViewer = DummyViewer
 rendering.RenderContextOffscreen = DummyViewer
 ```
+
+12.**Slides:**[How To Leverage Unlabeled Data in Offline Reinforcement Learning](https://icml.cc/media/icml-2022/Slides/17328_BtUukaj.pdf?utm_source=chatgpt.com)<br>
+![image](https://github.com/user-attachments/assets/a6bc28b6-9702-4570-85f4-4cd3e6df81c9)<br>
