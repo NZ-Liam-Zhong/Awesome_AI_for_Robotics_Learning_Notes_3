@@ -81,3 +81,10 @@ rendering.RenderContextOffscreen = DummyViewer
 ![image](https://github.com/user-attachments/assets/a6bc28b6-9702-4570-85f4-4cd3e6df81c9)<br>
 
 13.[Survey on Mult-agent reinforcement learning](https://arxiv.org/pdf/1911.10635)<br>
+
+
+14.[policy decorator](https://t.co/zmuPrSUXoa)<br>
+![image](https://github.com/user-attachments/assets/a94e360e-ae6a-4728-867b-53be57b2cae8)<br>
+
+
+
