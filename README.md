@@ -88,6 +88,10 @@ rendering.RenderContextOffscreen = DummyViewer
 
 15.[PI 0.5](https://arxiv.org/pdf/2504.16054)<br>
 ![image](https://github.com/user-attachments/assets/fab1e5d5-9224-42a8-b678-74f9e39877a7)<br>
+![image](https://github.com/user-attachments/assets/bf665c82-8051-4121-907a-ab32a2845ebd)<br>
+
+16.[FAST: Efficient Action Tokenization for Vision-Language-Action Models](https://arxiv.org/pdf/2501.09747)<br>
+About to read<br>
 
 
 
