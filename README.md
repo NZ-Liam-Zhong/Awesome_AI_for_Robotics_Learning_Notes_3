@@ -86,5 +86,8 @@ rendering.RenderContextOffscreen = DummyViewer
 14.[policy decorator](https://t.co/zmuPrSUXoa)<br>
 ![image](https://github.com/user-attachments/assets/a94e360e-ae6a-4728-867b-53be57b2cae8)<br>
 
+15.[PI 0.5](https://arxiv.org/pdf/2504.16054)<br>
+![image](https://github.com/user-attachments/assets/fab1e5d5-9224-42a8-b678-74f9e39877a7)<br>
+
 
 
