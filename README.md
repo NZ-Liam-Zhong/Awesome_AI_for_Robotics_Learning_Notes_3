@@ -95,4 +95,7 @@ About to read<br>
 
 17.[A good article for PPO&IPPO&CTDE in MARL](https://zhuanlan.zhihu.com/p/544046358)<br>
 
+18.Different Lamda setting for reinforcement learning<br>
+![image](https://github.com/user-attachments/assets/cb378062-bd83-4c2b-bd9a-ace96f97817c)<br>
+
 
