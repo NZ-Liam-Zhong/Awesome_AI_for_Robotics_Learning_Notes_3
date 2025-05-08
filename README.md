@@ -106,4 +106,8 @@ About to read<br>
 [Click Here](https://arxiv.org/pdf/2503.01067?)<br>
 ![image](https://github.com/user-attachments/assets/9f106780-b790-418a-9116-658027fd3705)<br>
 
+21.[Visual Imitation Enables Contextual Humanoid Control](https://arxiv.org/pdf/2505.03729)<br>
+![image](https://github.com/user-attachments/assets/e5e551a7-174c-41b3-a26f-b3399758c5a2)<br>
+[website](https://www.videomimic.net/)<br>
+
 
