@@ -98,4 +98,7 @@ About to read<br>
 18.Different Lamda setting for reinforcement learning<br>
 ![image](https://github.com/user-attachments/assets/cb378062-bd83-4c2b-bd9a-ace96f97817c)<br>
 
+19.Good paper about srlfplay in LLM<br>
+[Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://www.arxiv.org/pdf/2505.03335)<br>
+![image](https://github.com/user-attachments/assets/0723485a-f3e5-4aea-be6b-104a3ae15cc0)<br>
 
