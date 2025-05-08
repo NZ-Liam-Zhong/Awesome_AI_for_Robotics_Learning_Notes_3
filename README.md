@@ -110,4 +110,69 @@ About to read<br>
 ![image](https://github.com/user-attachments/assets/e5e551a7-174c-41b3-a26f-b3399758c5a2)<br>
 [website](https://www.videomimic.net/)<br>
 
+22.[Llama-Nemotron: Efficient Reasoning Models](https://arxiv.org/pdf/2505.00949)<br>
+Certainly! Here's a detailed explanation of the **five-stage training pipeline** from the Llama-Nemotron paper, rewritten clearly in English:
+
+---
+
+## 🔄 Five-Stage Training Pipeline (from Llama-Nemotron)
+
+### **Stage 1: Neural Architecture Search (NAS) + FFN Fusion**
+
+**Goal:** Build a highly efficient model architecture optimized for inference speed and resource usage.
+
+* **Puzzle Framework:** Performs block-wise local distillation by replacing individual Transformer blocks (e.g., removing attention, shrinking FFN width) and evaluates them in terms of latency, memory, and accuracy.
+* **Mixed-Integer Programming (MIP):** Used to select the optimal combination of blocks across layers to meet deployment constraints (e.g., latency budget on H100 GPUs).
+* **FFN Fusion:** After pruning attention layers, multiple sequential FFN blocks are fused into a wider parallel FFN to reduce model depth and increase GPU utilization.
+
+> 📍 **Reference:** Section 2, Figure 3
+
+---
+
+### **Stage 2: Knowledge Distillation + Continued Pretraining (CPT)**
+
+**Goal:** Restore and even surpass the performance of original Llama-3 models despite architecture compression.
+
+* **Knowledge Distillation:** The models are trained to imitate outputs from strong teacher models like Llama-3.3-70B or DeepSeek-R1 using the **Distillation Mix** dataset.
+* **Continued Pretraining (CPT):** LN-Ultra continues unsupervised pretraining on the **Nemotron-H** dataset (88B tokens), which improves generalization on math, code, and science tasks.
+
+> 📍 **Reference:** Section 2.2, Table 1
+
+---
+
+### **Stage 3: Supervised Fine-Tuning (SFT)**
+
+**Goal:** Teach the model to perform both multi-step reasoning and regular chat, with the ability to switch styles dynamically.
+
+* **“Detailed Thinking” Mode:** Each training sample is tagged with a system prompt indicating whether to use chain-of-thought (CoT) reasoning (`detailed thinking on`) or to give concise answers (`detailed thinking off`).
+* **Paired Data Construction:** For every reasoning-style response, a non-reasoning version is generated using an LLM, enabling the model to learn to toggle between reasoning and short-form answers.
+
+> 📍 **Reference:** Section 3 and Section 4
+
+---
+
+### **Stage 4: Reinforcement Learning (RL)**
+
+**Goal:** Further enhance reasoning capabilities and outperform teacher models on complex scientific benchmarks.
+
+* **GRPO Algorithm:** Uses **Group Relative Policy Optimization**, a custom RL method designed to improve reasoning quality while maintaining response formatting.
+* **Reward Functions:** Combine correctness, proper reasoning format (e.g., "Let's think step by step"), and difficulty-based curriculum learning to improve both accuracy and stability.
+* **FP8 Sampling:** Inference during RL training is run in FP8 precision to reduce memory footprint and increase throughput on limited hardware (e.g., 8×H100).
+
+> 📍 **Reference:** Section 5.1 and 5.2
+
+---
+
+### **Stage 5: Alignment**
+
+**Goal:** Make the model safer, more helpful, and more user-aligned, suitable for real-world deployment.
+
+* **Human Preference Fine-Tuning:** Aligns the model with human values using safety-tuned datasets and reward models.
+* **Instruction Following:** Trains the model to better follow user prompts and behave predictably, especially in enterprise use cases.
+
+> 📍 **Reference:** Section 5 (final phase)
+
+---
+
+
 
