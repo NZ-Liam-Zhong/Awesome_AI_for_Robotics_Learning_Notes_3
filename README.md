@@ -102,3 +102,8 @@ About to read<br>
 [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://www.arxiv.org/pdf/2505.03335)<br>
 ![image](https://github.com/user-attachments/assets/0723485a-f3e5-4aea-be6b-104a3ae15cc0)<br>
 
+20.about to read<br>
+[Click Here](https://arxiv.org/pdf/2503.01067?)<br>
+![image](https://github.com/user-attachments/assets/9f106780-b790-418a-9116-658027fd3705)<br>
+
+
