@@ -182,3 +182,4 @@ Certainly! Here's a detailed explanation of the **five-stage training pipeline**
 (1)Use PnP to make SFM Reconstruction<br>
 Iterative SfM add the new photos  iteratively (cannot be global optimal)
 Global SfM can be global optimal<br>
+Learning based SfM<br>
