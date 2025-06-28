@@ -178,5 +178,7 @@ Certainly! Here's a detailed explanation of the **five-stage training pipeline**
 23.RL in LLM<br>
 ![image](https://github.com/user-attachments/assets/ea358ddc-9d37-4d96-9450-4dce84e7b501)<br>
 
-24. Use PnP to make SFM Reconstruction<br>
-
+24.IGAL Conference<br>
+(1)Use PnP to make SFM Reconstruction<br>
+Iterative SfM add the new photos  iteratively (cannot be global optimal)
+Global SfM can be global optimal<br>
