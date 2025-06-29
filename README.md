@@ -190,3 +190,4 @@ Learning based SfM<br>
 4.How to make a demo (livestreaming) <br>
 (3) Go-1<br>
 web-scale date > simulation data > real world data <br>
+data ratio, how to cellect the data and engineer the data <br>
