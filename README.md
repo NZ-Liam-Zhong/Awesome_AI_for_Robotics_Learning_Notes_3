@@ -193,3 +193,4 @@ web-scale date > simulation data > real world data <br>
 data ratio, how to cellect the data and engineer the data <br>
 (4) Localization, Mapping, Planning, Controling <br>
 Basic knowledge on computer vision and traditional robot navigation<br>
+(5) mirror of github: https://gitclone.com/ <br>
