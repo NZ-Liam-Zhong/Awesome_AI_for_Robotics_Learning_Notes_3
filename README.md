@@ -183,3 +183,10 @@ Certainly! Here's a detailed explanation of the **five-stage training pipeline**
 Iterative SfM add the new photos  iteratively (cannot be global optimal)
 Global SfM can be global optimal<br>
 Learning based SfM<br>
+(2)Robotics open problems<br>
+1.Evaluation/Benchmark <br>
+2.Data Collection (Data Engineering) <br>
+3.Algorithm (robot encoder) <br>
+4.How to make a demo (livestreaming) <br>
+(3) Go-1<br>
+web-scale date > simulation data > real world data <br>
