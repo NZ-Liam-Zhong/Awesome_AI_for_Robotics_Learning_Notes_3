@@ -194,3 +194,7 @@ data ratio, how to cellect the data and engineer the data <br>
 (4) Localization, Mapping, Planning, Controling <br>
 Basic knowledge on computer vision and traditional robot navigation<br>
 (5) mirror of github: https://gitclone.com/ <br>
+
+25.Multi-Task Scaling<br>
+![image](https://github.com/user-attachments/assets/b3599074-a711-4eb5-9907-4b5863cdc026)<br>
+
