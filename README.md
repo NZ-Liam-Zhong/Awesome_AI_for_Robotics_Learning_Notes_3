@@ -198,3 +198,9 @@ Basic knowledge on computer vision and traditional robot navigation<br>
 25.Multi-Task Scaling<br>
 ![image](https://github.com/user-attachments/assets/b3599074-a711-4eb5-9907-4b5863cdc026)<br>
 
+26.Diffusion based RL<br>
+<img width="1491" height="1139" alt="image" src="https://github.com/user-attachments/assets/90043b88-0bd8-4616-b203-a6d29d8caafc" /><br>
+<img width="1235" height="179" alt="image" src="https://github.com/user-attachments/assets/c90e1a96-6693-4646-b097-92bc16e0774a" /><br>
+
+
+
