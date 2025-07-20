@@ -202,5 +202,8 @@ Basic knowledge on computer vision and traditional robot navigation<br>
 <img width="1491" height="1139" alt="image" src="https://github.com/user-attachments/assets/90043b88-0bd8-4616-b203-a6d29d8caafc" /><br>
 <img width="1235" height="179" alt="image" src="https://github.com/user-attachments/assets/c90e1a96-6693-4646-b097-92bc16e0774a" /><br>
 
+27.Shiyu Zhao's course on RL:<br>
+[BOOK LINK}(https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning?tab=readme-ov-file)<br>
+![eb136c4d8209df15af8d126f205a72f](https://github.com/user-attachments/assets/2ae2d895-357e-4a73-95f4-44859d507dea)<br>
 
 
