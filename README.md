@@ -206,4 +206,7 @@ Basic knowledge on computer vision and traditional robot navigation<br>
 [BOOK LINK}(https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning?tab=readme-ov-file)<br>
 ![eb136c4d8209df15af8d126f205a72f](https://github.com/user-attachments/assets/2ae2d895-357e-4a73-95f4-44859d507dea)<br>
 
+28.[Steering Your Diffusion Policy with Latent Space Reinforcement Learning](https://diffusion-steering.github.io/)<br>
+<img width="1983" height="613" alt="08f6d8c4ebf9f102de81750f472ccbb" src="https://github.com/user-attachments/assets/fefd3b7c-ea37-4a16-a78b-2351524b489e" /><br>
+
 
